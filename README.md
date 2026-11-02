@@ -1,4 +1,4 @@
-# OpenLEAudio v3
+# OpenLEAudio 4
 
 A configurable Bluetooth LE Audio stack for Windows, created to make headset connections more transparent and controllable.
 
@@ -12,4 +12,4 @@ A configurable Bluetooth LE Audio stack for Windows, created to make headset con
 
 Download the ZIP from Releases and run `START OpenLEAudio 4.bat`. A compatible USB adapter and VB-CABLE are required.
 
-[Download a release](https://github.com/FajkPes/OpenLEAudio-v3/releases) · [Detailed documentation](README-DETAILS.md)
+[Download a release](https://github.com/FajkPes/OpenLEAudio-v4/releases) · [Detailed documentation](README-DETAILS.md)
