@@ -1,15 +1,26 @@
-# OpenLEAudio 4
+# OpenLEAudio v4
 
 A configurable Bluetooth LE Audio stack for Windows, created to make headset connections more transparent and controllable.
 
-## Key features
+## Why OpenLEAudio?
 
-- Adjust codec, bitrate, PHY and latency settings.
-- Monitor connection status and reconnect automatically.
-- Use a dedicated USB adapter while another stays on the Windows Bluetooth stack.
+I started OpenLEAudio to get more control over Bluetooth LE Audio on Windows and better visibility into connection problems. It uses a dedicated USB Bluetooth adapter through WinUSB while another adapter can continue using the standard Windows stack.
 
-## Get started
+## Features
 
-Download the ZIP from Releases and run `START OpenLEAudio 4.bat`. A compatible USB adapter and VB-CABLE are required.
+- Adjust codec, sample rate, frame duration, bitrate, PHY and latency-related settings.
+- Monitor connection status, signal and packet loss; configure automatic reconnection.
+- Use headset controls, battery reporting and optional microphone support where available.
+- Restore the selected adapter to the Windows driver when finished.
 
-[Download a release](https://github.com/FajkPes/OpenLEAudio-v4/releases) · [Detailed documentation](README-DETAILS.md)
+## Requirements and setup
+
+- Windows 10/11 x64 and a compatible, dedicated USB Bluetooth adapter.
+- VB-CABLE and the Microsoft runtimes described by the installer.
+- A compatible LE Audio headset. The reference setup was a JBL TUNE 780NC and ASUS USB-BT600; other devices are not guaranteed to work.
+
+Download the ZIP from [Releases](https://github.com/FajkPes/OpenLEAudio-v4/releases/latest), extract it, and run `START OpenLEAudio 4.bat`. Follow the Setup page to prepare the driver and adapter, then connect the headset. The original step-by-step instructions are in [release/README.md](release/README.md).
+
+The **Range / stability** profile uses automatic codec negotiation and a 1M audio PHY by default. Custom settings take effect according to the application’s labels; some require reconnecting. This project uses a dedicated adapter and is not a replacement for every Windows Bluetooth feature.
+
+[Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/OpenLEAudio-v4/releases)
