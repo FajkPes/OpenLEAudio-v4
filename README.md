@@ -24,3 +24,8 @@ Download the ZIP from [Releases](https://github.com/FajkPes/OpenLEAudio-v4/relea
 The **Range / stability** profile uses automatic codec negotiation and a 1M audio PHY by default. Custom settings take effect according to the application’s labels; some require reconnecting. This project uses a dedicated adapter and is not a replacement for every Windows Bluetooth feature.
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/OpenLEAudio-v4/releases)
+
+## Credits
+
+**Idea, concept and design:** FajkPes  
+**Coding:** ChatGPT Codex, Claude and Google Antigravity
