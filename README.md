@@ -25,6 +25,10 @@ The **Range / stability** profile uses automatic codec negotiation and a 1M audi
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/OpenLEAudio-v4/releases)
 
+## Connection and troubleshooting
+
+The aim is both a working LE Audio connection and access to the parameters and diagnostics that explain what the stack is doing. You can use the default stability profile or select custom settings, monitor signal and packet loss, and retry a connection after the headset goes out of range. Some settings apply only after reconnection. The project has been tested with a particular headset and adapter; the same behavior is not guaranteed with every device.
+
 ## Credits
 
 **Idea, concept and design:** FajkPes  
